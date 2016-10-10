@@ -1,0 +1,31 @@
+.public-header {
+    height: 110px;
+}
+
+.public-contenter {
+    position: relative;
+    margin: 0 auto;
+    background-color: #ffffff;
+    width: 1100px;
+}
+.public-contenter .header-logo{
+    width: 182px;
+    height: 54px;
+    margin-top:40px;
+    background: url("../images/logon.png");
+    float: left;
+}
+.public-contenter .header-nav{
+margin-top: 48px;
+    float: right;
+    font-size: 14px;
+
+}
+.public-contenter .header-nav .item{
+float: left;
+   padding-left: 30px;
+}
+.index-footer {
+    height: 316px;
+    background-color: #595959;
+}
