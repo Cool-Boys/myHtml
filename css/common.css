@@ -8,24 +8,70 @@
     background-color: #ffffff;
     width: 1100px;
 }
-.public-contenter .header-logo{
+
+.public-contenter .header-logo {
     width: 182px;
     height: 54px;
-    margin-top:40px;
+    margin-top: 40px;
     background: url("../images/logon.png");
     float: left;
 }
-.public-contenter .header-nav{
-margin-top: 48px;
+
+.public-contenter .header-nav {
+    margin-top: 48px;
     float: right;
     font-size: 14px;
 
 }
-.public-contenter .header-nav .item{
-float: left;
-   padding-left: 30px;
+
+.public-contenter .header-nav .item {
+    float: left;
+    padding-left: 30px;
 }
+
+.public-contenter .header-nav a {
+    color: #3b3b3b;
+}
+
+.public-contenter .header-nav a:hover {
+    text-decoration: underline;
+}
+
+.index-bannar {
+    height: 646px;
+    background-color: #595959;
+}
+
+.index-list {
+    height: 525px;
+    background-color: #ff00ff;
+}
+
 .index-footer {
     height: 316px;
     background-color: #595959;
+}
+
+.index-footer .footer-col {
+    margin-top: 100px;
+    float: left;
+    width: 230px;
+    font-size: 14px;
+    margin-right: 60px;
+    line-height: 1.8;
+    color: #fff;
+}
+.index-footer .footer-col .footer-logo{
+    width: 182px;
+    height: 54px;
+    margin-bottom: 20px;
+    margin-left: 14px;
+    background: url("../images/footer-logo.png");
+}
+.index-footer .footer-col .footer-copyright {
+
+}
+.index-footer .footer-col:last-child {
+    margin-right: 0;
+    margin-top: 100px;
 }
