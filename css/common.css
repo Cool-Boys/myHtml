@@ -38,8 +38,24 @@
 }
 
 .index-bannar {
-    height: 646px;
+
+    position: relative;
     background-color: #595959;
+}
+
+.index-bannar-bg {
+    height: 570px;
+    overflow: hidden;
+}
+
+.index-bannar-bg img {
+    width: 100%;
+}
+
+.index-bannar-text {
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .index-list {
@@ -61,16 +77,19 @@
     line-height: 1.8;
     color: #fff;
 }
-.index-footer .footer-col .footer-logo{
+
+.index-footer .footer-col .footer-logo {
     width: 182px;
     height: 54px;
     margin-bottom: 20px;
     margin-left: 14px;
     background: url("../images/footer-logo.png");
 }
+
 .index-footer .footer-col .footer-copyright {
 
 }
+
 .index-footer .footer-col:last-child {
     margin-right: 0;
     margin-top: 100px;
